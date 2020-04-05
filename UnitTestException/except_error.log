@@ -1,0 +1,56 @@
+2019-06-15 23:09:23.717408
+<class 'ZeroDivisionError'>
+ZeroDivisionError('division by zero')
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\ptvsd_launcher.py", line 43, in <module>
+    main(ptvsdArgs)
+
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\lib\python\ptvsd\__main__.py", line 434, in main
+    run()
+
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\lib\python\ptvsd\__main__.py", line 312, in run_file
+    runpy.run_path(target, run_name='__main__')
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 263, in run_path
+    pkg_name=pkg_name, script_name=fname)
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+
+  File "d:\pylearn\C12_UnitTestException\errorlog.py", line 28, in <module>
+    main()
+
+  File "d:\pylearn\C12_UnitTestException\errorlog.py", line 20, in main
+    fResult = int(sFirst) / int(sSecond)
+
+
+2019-06-15 23:11:10.075157
+<class 'ValueError'>
+ValueError("invalid literal for int() with base 10: 'q'")
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\ptvsd_launcher.py", line 43, in <module>
+    main(ptvsdArgs)
+
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\lib\python\ptvsd\__main__.py", line 434, in main
+    run()
+
+  File "c:\Users\Alex\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\lib\python\ptvsd\__main__.py", line 312, in run_file
+    runpy.run_path(target, run_name='__main__')
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 263, in run_path
+    pkg_name=pkg_name, script_name=fname)
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+
+  File "d:\pylearn\C12_UnitTestException\excepthook.py", line 28, in <module>
+    main()
+
+  File "d:\pylearn\C12_UnitTestException\excepthook.py", line 20, in main
+    fResult = int(sFirst) / int(sSecond)
+
+
